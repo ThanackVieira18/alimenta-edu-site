@@ -1,60 +1,36 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Sobre Nós | Alimenta Edu</title>
-	</head>
-	<body>
-		<header>
-			<strong>Alimenta Edu</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-		<main>
-			<section>
-				<h1>Sobre a Alimenta Edu</h1>
-				<p>A AlimentaEdu foi criada com a ideia de utilizar a tecnologia para facilitar a organização da alimentação escolar. A empresa desenvolve um sistema que auxilia as escolas no planejamento dos cardápios, no controle das refeições servidas, no gerenciamento do estoque de alimentos e no acompanhamento dos gastos. A proposta é reunir essas informações em um só lugar, tornando a gestão mais simples e organizada, ajudando no planejamento das compras e contribuindo para a redução do desperdício e o melhor uso dos recursos financeiros.</p>
-			</section>
+<LayoutBase 
+	titulo="Sobre Nós" 
+	descricao={`Conheça a história e os valores da ${empresa.nome}.`}
+>
+	<section>
+		<h1>Sobre a {empresa.nome}</h1>
+		<p>{empresa.historia}</p>
+	</section>
 
-			<section>
-				<h2>Missão</h2>
-				<p>Desenvolver soluções tecnológicas que facilitem a gestão da alimentação escolar, auxiliando no controle das refeições, dos estoques e das despesas, para promover uma administração mais organizada e eficiente</p>
-			</section>
+	<section>
+		<h2>Missão</h2>
+		<p>{empresa.missao}</p>
+	</section>
 
-			<section>
-				<h2>Visão</h2>
-				<p>Ser reconhecida como uma empresa de referência no desenvolvimento de sistemas para a alimentação escolar, contribuindo para a modernização das instituições de ensino e para o uso responsável dos recursos.</p>
-			</section>
+	<section>
+		<h2>Visão</h2>
+		<p>{empresa.visao}</p>
+	</section>
 
-			<section>
-				<h2>Nossos Valores</h2>
-				<ul>
-					<li>
-						<h3>Responsabilidade social</h3>
-						<p>Agir com ética, respeito e compromisso com o bem-estar da sociedade.</p>
-					</li>
-					<li>
-						<h3>Sustentabilidade e redução do desperdício</h3>
-						<p>Utilizar recursos de forma consciente, evitando desperdícios e promovendo práticas sustentáveis.</p>
-					</li>
-					<li>
-						<h3>Organização e transparência financeira</h3>
-						<p>Garantir uma gestão financeira organizada, responsável e transparente.</p>
-					</li>
-				</ul>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 Alimenta Edu. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+	<section>
+		<h2>Nossos Valores</h2>
+		<ul>
+			{empresa.valores.map((valor) => (
+				<li>
+					<h3>{valor.titulo}</h3>
+					<p>{valor.descricao}</p>
+				</li>
+			))}
+		</ul>
+	</section>
+</LayoutBase>
