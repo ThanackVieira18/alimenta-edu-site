@@ -1,7 +1,7 @@
 
 export const empresa = {
-  nome: "TED System",
-  slogan: "Tecnologia que evolui com o seu negócio.",
+  nome: "Alimenta Edu",
+  slogan: "Tecnologia que alimenta uma gestão melhor.",
   historia:
     "A AlimentaEdu foi criada com a ideia de utilizar a tecnologia para facilitar a organização da alimentação escolar. A empresa desenvolve um sistema que auxilia as escolas no planejamento dos cardápios, no controle das refeições servidas, no gerenciamento do estoque de alimentos e no acompanhamento dos gastos. A proposta é reunir essas informações em um só lugar, tornando a gestão mais simples e organizada, ajudando no planejamento das compras e contribuindo para a redução do desperdício e o melhor uso dos recursos financeiros.",
   missao:
@@ -39,21 +39,21 @@ export const empresa = {
     {
       nome: "Francisco Thanack Dos Santos Vieira",
       cargo: "CEO e Engenheiro de Software",
-      foto: "/images/wanderson.jpg",
+      foto: "/images/thanack.jpg",
       alt: "Foto de Francisco Thanack",
       descricao: "Idealizador da Alimenta Edu, iniciou sua trajetória criando sistemas de gestão para pequenos negócios do interior do Nordeste, buscando facilitar processos e impulsionar resultados."
     },
     {
       nome: "Otávio Menezes",
       cargo: "Especialista Full Stack",
-      foto: "/images/sheldon.jpg",
+      foto: "/images/otavio.jpg",
       alt: "Foto de Otávio Menezes",
       descricao: "Atua no desenvolvimento Full Stack, contribuindo para a criação de soluções digitais e o crescimento da empresa."
     },
     {
       nome: "Gabriel Henrique Oliveira",
       cargo: "Especialista em Bancos de Dados",
-      foto: "/images/amy.jpg",
+      foto: "/images/gabriel.jpg",
       alt: "Foto de Gabriel Henrique Oliveira",
       descricao: "Responsável pela organização, manutenção e segurança dos bancos de dados, garantindo a integridade das informações dos clientes."
     }
