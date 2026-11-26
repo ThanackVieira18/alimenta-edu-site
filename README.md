@@ -10,6 +10,7 @@ Desenvolver soluções tecnológicas que facilitem a gestão da alimentação es
 - **Local:** Centro, Piripiri, PI - CEP 64260-000
 
 ## Equipe
-- **Francisco Thanack dos Santos Vieira** — CEO e Engenheiro de Software
+- **Francisco Thanack** — CEO e Engenheiro de Software
 - **Otávio Menezes** — Especialista Full Stack
-- **Gabriel Henrique Oliveira** — Especialista em Bancos de Dados
+- **Gabriel Henrique** — Especialista em Bancos de Dados
+- **Paulo Sampaio** — Analista de Sistemas e Gestão Financeira 
