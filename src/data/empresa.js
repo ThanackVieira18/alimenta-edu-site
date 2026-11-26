@@ -37,25 +37,32 @@ export const empresa = {
   },
   equipe: [
     {
-      nome: "Francisco Thanack Dos Santos Vieira",
+      nome: "Francisco Thanack",
       cargo: "CEO e Engenheiro de Software",
       foto: "/images/thanack.jpg",
       alt: "Foto de Francisco Thanack",
-      descricao: "Idealizador da Alimenta Edu, iniciou sua trajetória criando sistemas de gestão para pequenos negócios do interior do Nordeste, buscando facilitar processos e impulsionar resultados."
+      descricao: "Idealizador da Alimenta Edu, iniciou sua trajetória desenvolvendo sistemas de gestão para pequenos negócios do interior do Nordeste, buscando otimizar processos e impulsionar resultados."
     },
     {
       nome: "Otávio Menezes",
       cargo: "Especialista Full Stack",
       foto: "/images/otavio.jpg",
       alt: "Foto de Otávio Menezes",
-      descricao: "Atua no desenvolvimento Full Stack, contribuindo para a criação de soluções digitais e o crescimento da empresa."
+      descricao: "Atua no desenvolvimento Full Stack, participando da criação de soluções digitais, aprimoramento de sistemas e desenvolvimento de tecnologias para o crescimento da empresa."
     },
     {
-      nome: "Gabriel Henrique Oliveira",
+      nome: "Gabriel Henrique",
       cargo: "Especialista em Bancos de Dados",
       foto: "/images/gabriel.jpg",
-      alt: "Foto de Gabriel Henrique Oliveira",
-      descricao: "Responsável pela organização, manutenção e segurança dos bancos de dados, garantindo a integridade das informações dos clientes."
+      alt: "Foto de Gabriel Henrique",
+      descricao: "Responsável pela organização, manutenção e segurança dos bancos de dados, garantindo a integridade, disponibilidade e confiabilidade das informações dos clientes."
+    },
+    {
+      nome: "Paulo Sampaio",
+      cargo: "Analista de Sistemas e Gestão Financeira",
+      foto: "/images/paulo.jpg",
+      alt: "Foto do Paulo",
+      descricao: "Responsável pela análise e aprimoramento de sistemas de gestão alimentar e financeira, otimizando processos, organizando informações e contribuindo para a eficiência da empresa."
     }
   ]
 };

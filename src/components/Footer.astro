@@ -14,8 +14,8 @@ const anoAtual = new Date().getFullYear();
 
 		<div class="rodape-contato">
 			<p>{empresa.contato.endereco.logradouro}</p>
-			<p>{empresa.contato.endereco.complemento} - {empresa.contato.endereco.bairro}</p>
-			<p>{empresa.contato.endereco.cidadeEstado} - CEP: {empresa.contato.endereco.cep}</p>
+			<p>{empresa.contato.endereco.complemento}  {empresa.contato.endereco.bairro}</p>
+			<p>{empresa.contato.endereco.cidadeEstado}  CEP: {empresa.contato.endereco.cep}</p>
 			<div class="links-contato">
 				<a href={`mailto:${empresa.contato.email}`}>{empresa.contato.email}</a>
 				<p>{empresa.contato.telefone}</p>

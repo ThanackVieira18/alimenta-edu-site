@@ -1,6 +1,6 @@
-# TED System
+# Alimenta Edu
 
-> Tecnologia que evolui com o seu negócio.
+> Tecnologia que alimenta uma gestão melhor.
 
 ## Sobre a Empresa
 Desenvolver soluções tecnológicas que facilitem a gestão da alimentação escolar, auxiliando no controle das refeições, dos estoques e das despesas, para promover uma administração mais organizada e eficiente
