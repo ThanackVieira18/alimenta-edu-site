@@ -10,6 +10,12 @@ import { empresa } from '../data/empresa.js';
 >
 	<section class="secao">
 		<div class="container">
+			<div class="fachada-contato">
+    <img
+        src="/images/fachada.png"
+        alt="Fachada da Alimenta Edu"
+    />
+</div>
 			<div class="cabecalho-secao">
 				<h1>Fale Conosco</h1>
 				<p>Precisa de uma solução tecnológica que facilite a gestão do seu negócio? Podemos te ajudar! Entre em contato com a {empresa.nome}!</p>
@@ -37,6 +43,17 @@ import { empresa } from '../data/empresa.js';
 </LayoutBase>
 
 <style>
+	.fachada-contato {
+    margin-bottom: 2rem;
+}
+
+.fachada-contato img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
 	.cabecalho-secao {
 		margin-bottom: 3rem;
 	}
